@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>France</class>
+ <widget class="QWidget" name="France">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>800</width>
+    <height>600</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>France</string>
+  </property>
+  <widget class="QLabel" name="label_numDepartement">
+   <property name="geometry">
+    <rect>
+     <x>70</x>
+     <y>280</y>
+     <width>211</width>
+     <height>16</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Donnez un numéro de département</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_nomDepartement">
+   <property name="geometry">
+    <rect>
+     <x>70</x>
+     <y>320</y>
+     <width>211</width>
+     <height>16</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Nom du département</string>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="lineEdit_numDepartement">
+   <property name="geometry">
+    <rect>
+     <x>290</x>
+     <y>277</y>
+     <width>113</width>
+     <height>24</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="pushButton">
+   <property name="geometry">
+    <rect>
+     <x>410</x>
+     <y>277</y>
+     <width>181</width>
+     <height>24</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Avoir le nom du département</string>
+   </property>
+  </widget>
+  <widget class="QComboBox" name="comboBoxRegions">
+   <property name="geometry">
+    <rect>
+     <x>70</x>
+     <y>199</y>
+     <width>161</width>
+     <height>24</height>
+    </rect>
+   </property>
+   <property name="editable">
+    <bool>true</bool>
+   </property>
+   <property name="currentText">
+    <string>Choisissez une région</string>
+   </property>
+  </widget>
+  <widget class="QComboBox" name="comboBoxDepartements">
+   <property name="geometry">
+    <rect>
+     <x>245</x>
+     <y>199</y>
+     <width>191</width>
+     <height>24</height>
+    </rect>
+   </property>
+   <property name="editable">
+    <bool>true</bool>
+   </property>
+   <property name="currentText">
+    <string>Choisissez un département</string>
+   </property>
+  </widget>
+  <widget class="QComboBox" name="comboBoxVilles">
+   <property name="geometry">
+    <rect>
+     <x>450</x>
+     <y>199</y>
+     <width>141</width>
+     <height>24</height>
+    </rect>
+   </property>
+   <property name="editable">
+    <bool>true</bool>
+   </property>
+   <property name="currentText">
+    <string>Choisissez une ville</string>
+   </property>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
